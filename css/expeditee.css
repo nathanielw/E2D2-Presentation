@@ -1,0 +1,50 @@
+/* line 3, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+body {
+  background: black;
+  margin: 0;
+  padding: 0; }
+
+/* line 9, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+.reveal {
+  font-family: 'Roboto Condensed', Roboto, sans-serif;
+  font-size: 30px;
+  color: #343434; }
+  /* line 18, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal h1 {
+    font-family: 'Roboto Slab', Roboto, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 0.9; }
+  /* line 26, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal p {
+    line-height: 0.8; }
+  /* line 30, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal small {
+    font-size: 0.6em; }
+  /* line 34, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal a {
+    color: #006974;
+    text-decoration: none; }
+    /* line 38, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    .reveal a:hover {
+      color: #0097a7; }
+  /* line 44, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1000; }
+  /* line 53, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal .intro {
+    display: block;
+    position: relative; }
+    /* line 57, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    .reveal .intro .content {
+      text-align: right;
+      position: absolute;
+      right: 130px;
+      top: 200px; }
+
+/*# sourceMappingURL=expeditee.css.map */

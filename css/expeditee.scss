@@ -1,0 +1,65 @@
+@import "../_lib/components/bourbon/app/assets/stylesheets/bourbon";
+
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.reveal {
+	$fgPrimary: #343434;
+	$fgSecondary: #0097a7;
+	$fgSecondaryDark: darken(#0097a7, 10%);
+	
+	font-family: 'Roboto Condensed', Roboto, sans-serif;
+	font-size: 30px;
+	color: $fgPrimary;
+	
+	h1 {
+		font-family: 'Roboto Slab', Roboto, serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 2em;
+		line-height: 0.9;
+	}
+	
+	p {
+		line-height: 0.8;
+	}
+	
+	small {
+		font-size: 0.6em;
+	}
+	
+	a {
+		color: $fgSecondaryDark;
+		text-decoration: none;
+		
+		&:hover {
+			color: $fgSecondary;
+		}
+	}
+	
+	
+	.bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: -1000;
+	}
+	
+	
+	.intro {
+		display: block;
+		position: relative;
+		
+		.content {
+			text-align: right;
+			position: absolute;
+			right: 130px;
+			top: 200px;
+		}
+	}
+}
+	
