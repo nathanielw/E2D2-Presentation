@@ -1,4 +1,6 @@
 @import "../_lib/components/bourbon/app/assets/stylesheets/bourbon";
+@import "animate.min.css";
+
 
 body {
 	background: black;
@@ -6,39 +8,76 @@ body {
 	padding: 0;
 }
 
+.shadowed {
+	box-shadow: 0 5px 20px rgba(black, 0.5);
+}
+
 .reveal {
-	$fgPrimary: #343434;
-	$fgSecondary: #0097a7;
-	$fgSecondaryDark: darken(#0097a7, 10%);
+	$primary: #343434;
+	$secondary: #ffc107;
+	$accent: #0097a7;
+	$accentDark: darken(#0097a7, 10%);
+	$padding: 1em;
 	
 	font-family: 'Roboto Condensed', Roboto, sans-serif;
-	font-size: 30px;
-	color: $fgPrimary;
+	font-size: 44px;
+	color: $primary;
 	
-	h1 {
+	section {
+		height: 100%;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.padded {
+		padding: $padding;
+	}
+	
+	h1, h2 {
 		font-family: 'Roboto Slab', Roboto, serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		font-size: 2em;
 		line-height: 0.9;
 	}
 	
-	p {
-		line-height: 0.8;
+	h1 {
+		font-size: 1.3em;
 	}
 	
+	h2 {
+		font-size: 2.2em;
+		color: white;
+		margin-bottom: 0.5em;
+	}
+
+	
 	small {
-		font-size: 0.6em;
+		font-size: 0.4em;
 	}
 	
 	a {
-		color: $fgSecondaryDark;
+		color: $accentDark;
 		text-decoration: none;
 		
 		&:hover {
-			color: $fgSecondary;
+			color: $accent;
 		}
 	}
+	
+	ul {
+		line-height: 1.3;
+		list-style: none;
+		
+		li {
+			
+			&:before {
+				content: '•';
+				opacity: 0.2;
+				margin-right: 0.5em;
+			}
+		}
+	}
+	
 	
 	
 	.bg {
@@ -49,10 +88,14 @@ body {
 		z-index: -1000;
 	}
 	
+	.bg-secondary {
+		background-color: $secondary;
+	}
+	
 	
 	.intro {
-		display: block;
-		position: relative;
+	
+		line-height: 0.45;
 		
 		.content {
 			text-align: right;
@@ -60,6 +103,69 @@ body {
 			right: 130px;
 			top: 200px;
 		}
+	}
+
+	.window {
+		@extend .shadowed;
+		
+		img {
+			z-index: -1;
+			position: relative;
+		}
+		
+		display: inline-block;
+		border-radius: 6px;
+		overflow: hidden;
+		position: relative;
+		
+		$baseSize: 15px;
+		
+		&:before {
+			content: attr(data-title);
+			font-size: $baseSize;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			
+			clear: both;
+			display: block;
+			width: 100%;
+			padding: 10px;
+			
+			background: rgba(white, 0.9);
+			
+			border-bottom: 1px solid rgba(black, 0.1);
+			box-shadow: 0 0 10px rgba(black, 0.1);
+		}
+		
+		&:after {
+			$dotSize: 10px;
+			
+			content: '';
+
+			display: block;
+			position: absolute;
+			top: ($dotSize + $baseSize) / 2;
+			left: ($dotSize + $baseSize) / 2;
+			
+			
+			width: $dotSize;
+			height: $dotSize;
+			border-radius: 100%;
+			
+			background: rgba(black, 0.2);
+			
+			box-shadow:  $dotSize * 1.4 0 0 rgba(black, 0.2), $dotSize * 2.8 0 0 rgba(black, 0.2);
+		}
+	}
+	
+	.centered {
+		text-align: center;
+	}
+	
+	img, video {
+		width: 100%;
+		float: left;
 	}
 }
 	

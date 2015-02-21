@@ -13,7 +13,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed|Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed|Roboto:400,300,500' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/expeditee.css" id="theme">
@@ -29,6 +29,7 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -56,7 +57,23 @@
 					</aside>
 				</section>
 
-				<section>
+				<section class="bg-secondary">
+					<div class="padded">
+						<h2>Expeditee Is...</h2>
+						<ul>
+							<li>Hypermedia environment for organising ideas</li>
+							<li>Unique UX</li>
+							<li>Visually outdated</li>
+						</ul>	
+					</div>
+					
+					<div class="centered">
+						<div class="window animated bounceInUp" data-title="Expeditee"  style="width:75%">
+							<video autoplay loop poster="img/expeditee.png">
+								<source data-src="img/vid/expeditee.webm" type="video/webm" />
+							</video>
+						</div>
+					</div>
 					<aside class="notes">
 						<p>So Expeditee is a hypermedia enviroment for creating and organising various types of content.</p>
 						
@@ -122,6 +139,9 @@
 				progress: true,
 				history: true,
 				center: true,
+				viewDistance: 1,
+				backgroundTransition: 'none',
+				margin: 0,
 
 				transition: 'none', // none/fade/slide/convex/concave/zoom
 
@@ -135,6 +155,16 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+			
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				
+				var vids = $(event.currentSlide).find("video");
+				// Resume any videos
+				vids.each(function(i, el) {
+					el.play();
+				});
+			});
+
 
 		</script>
 
