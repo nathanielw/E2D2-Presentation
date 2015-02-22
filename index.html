@@ -13,7 +13,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed|Roboto:400,300,500' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed:400italic,400|Roboto:400,300,500|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/animate.min.css">
@@ -109,8 +109,8 @@
 					<div class="padded">
 						<h2>Hacking Android</h2>
 						<h3 class="subtleEntry">Directly</h3>
-						<div class="iconed fragment">
-							<div class="card half">
+						<div class="fragment">
+							<div class="card half iconed">
 								<i class="md md-developer-mode md-2x"></i>
 								<ul>
 									<li class="positive">Direct access to Android source</li>
@@ -120,7 +120,7 @@
 								</ul>
 							</div>
 
-							<div class="card half">
+							<div class="card half iconed">
 								<i class="md md-face-unlock md-2x"></i>
 								<ul>
 									<li class="negative">User must have root access</li>
@@ -140,8 +140,8 @@
 						<h2>Hacking Android</h2>
 						<h3 class="subtleEntry">With Xposed</h3>
 						
-						<div class="iconed">
-							<div class="card half">
+						<div class="fragment">
+							<div class="card half iconed">
 								<i class="md md-developer-mode md-2x"></i>
 								<ul>
 									<li>Mods hooks into method calls</li>
@@ -151,7 +151,7 @@
 								</ul>
 							</div>
 
-							<div class="card half">
+							<div class="card half iconed">
 								<i class="md md-face-unlock md-2x"></i>
 								<ul>
 									<li class="negative">User must have root access</li>
@@ -168,31 +168,87 @@
 				</section>
 				
 				<section class="bg-android">
+					<div class="padded">
+						<h2 class="small">Result</h2>
+						<ul>
+							<li>Right-click to pick up text*, drop into text fields
+								<br>
+								<small>*anything that's a descendant of <code>android.view.TextView</code></small>
+							</li>
+						</ul>
+					</div>
 					<aside class="notes">
-						<p>The end result of this was that across the Android system, the text content of elements that extend Android’s standard Text or Button UI elements text can be picked up with a right click and carried between apps, with text entry fields allowing the same mouse button combos you’d use in Expeditee for manipulating text.</p>
+						<p>The end result of this was that across the Android system, the text content of elements that extend Android’s standard Text or Button UI elements text can be picked up with a right click and carried between apps, and dropped into text entry fields.</p>
+					</aside>
+				</section>	
+                
+				<section class="bg-android">
+					<div class="padded">
+						<h2 class="small">Result</h2>
+						<ul>
+							<li>Hover to focus, caret follows cursor</li>
+							<li>Custom cursor indicates possible actions</li>
+						</ul>
+					</div>
+					<aside class="notes">
+						<p>The content of text entry fields can also be manipulated in the same way, in addition to mouse button combos that allow things such as deletion. The caret follows the cursor just as it does in Expeditee, and the curos also extends Expeditee's</p>
 					</aside>
 				</section>
 				
-				<section>
+				<section class="bg-accent">
+					<div class="padded">
+						<h2>Porting Expeditee</h2>
+					</div>
 					<aside class="notes">
 						<p>The second part of the project consisted of porting the main Expeditee app to Android.</p>
 					</aside>
 				</section>
 				
-				<section>
+				<section class="bg-accent">
+					<div class="padded">
+						<h2>Porting Expeditee</h2>
+						
+						<div>
+							<div class="card half iconed">
+								<i class="md md-desktop-windows md-2x"></i>
+								<h3>Desktop Expeditee:</h3>
+								<ul>
+									<li class="negative">Graphics mixed in with logic</li>
+									<li class="negative">Direct port would require also porting <code>java.awt</code></li>
+								</ul>
+							</div>
+
+							<div class="card half fragment iconed">
+								<i class="md md-android md-2x"></i>
+								<h3>Android Expeditee:</h3>
+								<ul>
+									<li class="positive">Graphics code completely separate from logic</li>
+									<li class="positive">Future ports <em>should</em> only require implementing graphics interfaces</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
 					<aside class="notes">
 						<p>The Expeditee codebase has no real separation between graphics and logic code, so I had to make some significate changes to its structure...</p>
 						<p>The code that the Android version is running on has been structured so that the user interface is completely separate from the logic, which means, in theory, the desktop version could be modified to be running of a common codebase.</p> <!-- TODO: condense these paragraphs -->
 					</aside>
 				</section>
 				
-				<section>
+				<section class="bg-accent">
+					<div class="padded">
+						<h2 class="small">Result: <span style="font-weight: normal">Basic Expeditee Viewer</span></h2>
+						
+						<ul>
+							<li>Load framesets, view and navigate frames</li>
+							<li>Mouse or touch controls</li>
+						</ul>
+					</div>
 					<aside class="notes">
 						<p>At the moment only basic viewing and navigation is supported in the app, so there's still a lot that could be added in the future, including editing, integration with the first part of the project and potentially other Android-specific features.
 					</aside>
 				</section>
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>

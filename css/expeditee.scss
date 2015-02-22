@@ -12,32 +12,37 @@ body {
 .shadowed {
 	box-shadow: 0 5px 40px rgba(black, 0.4);
 }
-	
-.subtleEntry {
+
+// Don't use this directly - extend .subtleEntry instead
+@mixin subtleEntryBase() {
 	@include animation(subtleInLeft $durationMed ease-out);
 	@include animation-fill-mode(backwards);
+	
+	@for $i from 1 through 10 {
+		&:nth-child(#{$i}) {
+			@include animation-delay(#{($i - 1) * $durationMed / 5});
+		}
+	}
+}
+	
+.subtleEntry {
+	@include subtleEntryBase();
 }
 
 // fragments shouldn't get their animation until they're visible
 .fragment .subtleEntry, .fragment.subtleEntry  {
-	@include animation-play-state(paused);
+	@include animation(none);
 }
 
 .fragment.visible .subtleEntry, .fragment.visible.subtleEntry {
-	@include animation-play-state(running);
-}
-
-@for $i from 1 through 10 {
-	.subtleEntry:nth-child(#{$i}) {
-		@include animation-delay(#{($i - 1) * $durationMed / 5});
-	}
+	@include subtleEntryBase();
 }
 
 .reveal {
 	$primary: #343434;
 	$secondary: #ffc107;
-	$accent: #0097a7;
-	$accentDark: darken(#0097a7, 10%);
+	$accent: #00BCD4;
+	$accentDark: darken($accent, 10%);
 	$androidGreen: #A4C639;
 	
 	$red: #F44336;
@@ -78,12 +83,20 @@ body {
 		margin-bottom: 0.5em;
 		
 		text-shadow: 4px 4px 10px rgba(black, 0.16);
+		
+		&.small {
+			font-size: 1.1em;
+		}
 	}
 	
 	h3 {
 		font-size: 1.45em;
-		margin-top: -0.7em;
 		margin-bottom: 0.5em;
+		display: block;
+	}
+	
+	h2 + h3 {
+		margin-top: -0.7em;
 	}
 
 	
@@ -98,6 +111,20 @@ body {
 		&:hover {
 			color: $accent;
 		}
+	}
+	
+	code {
+		font-family: 'Droid Sans Mono';
+		font-size: 0.9em;
+		padding: 0.2em 0.6em;
+		background: rgba(white, 0.2);
+		border-radius: 6px;
+		
+		box-shadow: 0 2px 5px rgba(black, 0.1);
+	}
+	
+	em {
+		font-style: italic;
 	}
 	
 	ul {
@@ -150,6 +177,10 @@ body {
 	
 	.bg-android {
 		background-color: $androidGreen;
+	}
+	
+	.bg-accent {
+		background-color: $accent;
 	}
 	
 	
@@ -250,11 +281,13 @@ body {
 		&>i  {
 			text-align: center;
 			
-			position: relative;
-			top: -1.5em;
+			position: absolute;
+			top: -1em;
 			
 			margin-left: auto;
 			margin-right: auto;
+			left: 0;
+			right: 0;
 			
 			display: block;
 			
@@ -266,14 +299,11 @@ body {
 			height: 2em;
 			line-height: 2em;
 		}
-		
-		&>i + * {
-			margin-top: -2em;
-		}
 	}
 	
 	.iconed {
 		margin-top: 2em;
+		padding-top: 3em;
 	}
 	
 	.centered {
