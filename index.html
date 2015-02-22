@@ -80,8 +80,6 @@
 						<p>Its primary use would be for things such as note-taking, but it aims to support a wide range of activities.</p>
 
 						<p>It provides quite a unique style of interaction, but at the same time feels quite outdated visually, so switching between it and other desktop programs can sometimes be a little jarring.</p>
-						
-						<p>The aim of this project was to expand Expeditee so that its core features could be used across an entire modern desktop environment.</p>
 					</aside>
 				</section>
 				
@@ -101,21 +99,75 @@
 	</g>
 </svg>
 					<aside class="notes">
-						<p>...and the platform that was chosen for this was Android, 
-							
-							<br><small>which can be installed on any computer using Android x86, or just used on a tablet, which, with a bluetooth keyboard and mouse, is perfect place to be using Expeditee.</small></p>
+						<p>The aim of this project was to expand Expeditee so that its core features could be used across an entire modern desktop environment.</p>
+						
+						<p>...and the platform that was chosen for this was Android.</p>
 					</aside>
 				</section>
 				
-				<section>
+				<section class="bg-android">
+					<div class="padded">
+						<h2>Hacking Android</h2>
+						<h3 class="subtleEntry">Directly</h3>
+						<div class="iconed fragment">
+							<div class="card half">
+								<i class="md md-developer-mode md-2x"></i>
+								<ul>
+									<li class="positive">Direct access to Android source</li>
+									<li class="negative">Long build times</li>
+									<li>Deployed as custom ROM</li>
+									<li class="negative">Hard to maintain</li>
+								</ul>
+							</div>
+
+							<div class="card half">
+								<i class="md md-face-unlock md-2x"></i>
+								<ul>
+									<li class="negative">User must have root access</li>
+									<li class="negative">Install wipes device data</li>
+									<li class="negative">Can't use with custom ROMs</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 					<aside class="notes">
 						<p>The possibility of modify and compiling up a custom version of Android was breifly explored, and while this was surprisingly straight forward, it would obviously not be the best approach for end-users.</p>
+					</aside>
+				</section>
+				
+				<section class="bg-android">
+					<div class="padded">
+						<h2>Hacking Android</h2>
+						<h3 class="subtleEntry">With Xposed</h3>
 						
+						<div class="iconed">
+							<div class="card half">
+								<i class="md md-developer-mode md-2x"></i>
+								<ul>
+									<li>Mods hooks into method calls</li>
+									<li class="negative">Can only inject code before &amp; after methods, not inside</li>
+									<li class="positive">Deployed as Android apk</li>
+									<li class="positive">Easy to maintain</li>
+								</ul>
+							</div>
+
+							<div class="card half">
+								<i class="md md-face-unlock md-2x"></i>
+								<ul>
+									<li class="negative">User must have root access</li>
+									<li class="positive">Installed like normal app</li>
+									<li class="positive">Automatic updates</li>
+									<li class="positive">Works with most Android versions (4.0.3+)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<aside class="notes">
 						<p>Instead I switched over to creating a standard Android app that, provided the user has root access, makes the necessary changes, without permanently modifying any of the Android system. This was achieved through a really cool framework called Xposed, which handles all the hard work of injecting the changes at boot.</p>
 					</aside>
 				</section>
 				
-				<section>
+				<section class="bg-android">
 					<aside class="notes">
 						<p>The end result of this was that across the Android system, the text content of elements that extend Android’s standard Text or Button UI elements text can be picked up with a right click and carried between apps, with text entry fields allowing the same mouse button combos you’d use in Expeditee for manipulating text.</p>
 					</aside>
