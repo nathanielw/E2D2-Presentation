@@ -5,7 +5,7 @@ body {
   padding: 0; }
 
 /* line 11, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
-.shadowed, .reveal .window, .reveal .card {
+.shadowed, .reveal .window, .reveal .laptop, .reveal .card {
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.4); }
 
 /* line 27, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
@@ -260,16 +260,18 @@ body {
     .reveal .credits:hover {
       opacity: 1; }
   /* line 213, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
-  .reveal .window {
+  .reveal .window, .reveal .laptop {
     display: inline-block;
-    border-radius: 6px;
-    overflow: hidden;
     position: relative; }
     /* line 216, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
-    .reveal .window img {
+    .reveal .window img, .reveal .laptop img {
       z-index: -1;
       position: relative; }
-    /* line 228, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 225, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal .window {
+    overflow: hidden;
+    border-radius: 6px; }
+    /* line 230, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .window:before {
       content: attr(data-title);
       font-size: 15px;
@@ -283,7 +285,7 @@ body {
       background: rgba(255, 255, 255, 0.9);
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    /* line 246, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 248, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .window:after {
       content: '';
       display: block;
@@ -295,7 +297,42 @@ body {
       border-radius: 100%;
       background: rgba(0, 0, 0, 0.2);
       box-shadow: 14px 0 0 rgba(0, 0, 0, 0.2), 28px 0 0 rgba(0, 0, 0, 0.2); }
-  /* line 267, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 269, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  .reveal .laptop {
+    padding: 40px;
+    border-radius: 20px;
+    background: #2d3134;
+    border: 4px solid #e2e2e2; }
+    /* line 277, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    .reveal .laptop:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 16px;
+      height: 16px;
+      border-radius: 100%;
+      background: rgba(255, 255, 255, 0.3); }
+    /* line 298, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    .reveal .laptop:after {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+      content: '';
+      display: block;
+      position: absolute;
+      left: -10%;
+      bottom: -20px;
+      width: 120%;
+      height: 40px;
+      border-bottom-left-radius: 8% 45%;
+      border-bottom-right-radius: 8% 45%;
+      background-color: #eaeaea;
+      background-image: -webkit-linear-gradient(top, #eaeaea 60%, #ccc 60%);
+      background-image: linear-gradient(to bottom,#eaeaea 60%, #ccc 60%); }
+  /* line 317, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   .reveal .card {
     padding: 1em;
     border-radius: 6px;
@@ -305,18 +342,18 @@ body {
     position: relative;
     font-size: 0.6em;
     box-sizing: border-box; }
-    /* line 283, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 333, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .card.half {
       width: 49%; }
-      /* line 286, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 336, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
       .reveal .card.half:not(:nth-child(2n)) {
         margin-right: 2%; }
-    /* line 291, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 341, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .card li {
       -webkit-animation: none;
       -moz-animation: none;
       animation: none; }
-    /* line 295, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 345, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .card > i {
       text-align: center;
       position: absolute;
@@ -332,18 +369,18 @@ body {
       width: 2em;
       height: 2em;
       line-height: 2em; }
-  /* line 318, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 368, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   .reveal .iconed {
     margin-top: 2em;
     padding-top: 3em; }
-  /* line 323, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 373, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   .reveal .centered {
     text-align: center; }
-  /* line 327, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 377, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   .reveal img, .reveal video {
     width: 100%;
     float: left; }
-  /* line 332, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 382, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   .reveal .robot {
     position: absolute;
     right: -20%;
@@ -354,12 +391,12 @@ body {
     -ms-transform: scale(1.5) rotate(-45deg);
     -o-transform: scale(1.5) rotate(-45deg);
     transform: scale(1.5) rotate(-45deg); }
-    /* line 339, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 389, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
     .reveal .robot.visible {
       -webkit-animation: slideLeft 1s ease-out;
       -moz-animation: slideLeft 1s ease-out;
       animation: slideLeft 1s ease-out; }
-      /* line 342, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 392, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
       .reveal .robot.visible #armRight {
         -webkit-animation: wave 2s 0.8s ease-in-out;
         -moz-animation: wave 2s 0.8s ease-in-out;
@@ -371,33 +408,33 @@ body {
         transform-origin: center 10%; }
 
 @-webkit-keyframes wave {
-  /* line 352, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0%, 100% {
     -webkit-transform: rotate(0); }
 
-  /* line 355, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   25%, 50%, 75% {
     -webkit-transform: rotate(-140deg); }
 
-  /* line 358, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   40%, 60% {
     -webkit-transform: rotate(-185deg) translateY(3px); } }
 
 @-moz-keyframes wave {
-  /* line 352, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0%, 100% {
     -moz-transform: rotate(0); }
 
-  /* line 355, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   25%, 50%, 75% {
     -moz-transform: rotate(-140deg); }
 
-  /* line 358, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   40%, 60% {
     -moz-transform: rotate(-185deg) translateY(3px); } }
 
 @keyframes wave {
-  /* line 352, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0%, 100% {
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
@@ -405,7 +442,7 @@ body {
     -o-transform: rotate(0);
     transform: rotate(0); }
 
-  /* line 355, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   25%, 50%, 75% {
     -webkit-transform: rotate(-140deg);
     -moz-transform: rotate(-140deg);
@@ -413,7 +450,7 @@ body {
     -o-transform: rotate(-140deg);
     transform: rotate(-140deg); }
 
-  /* line 358, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   40%, 60% {
     -webkit-transform: rotate(-185deg) translateY(3px);
     -moz-transform: rotate(-185deg) translateY(3px);
@@ -422,42 +459,42 @@ body {
     transform: rotate(-185deg) translateY(3px); } }
 
 @-webkit-keyframes slideLeft {
-  /* line 364, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @-moz-keyframes slideLeft {
-  /* line 364, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @keyframes slideLeft {
-  /* line 364, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @-webkit-keyframes subtleInLeft {
-  /* line 370, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px); }
 
-  /* line 374, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   100% {
     -webkit-transform: translateX(0px); } }
 
 @-moz-keyframes subtleInLeft {
-  /* line 370, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     opacity: 0;
     -moz-transform: translateX(20px); }
 
-  /* line 374, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   100% {
     -moz-transform: translateX(0px); } }
 
 @keyframes subtleInLeft {
-  /* line 370, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -466,7 +503,7 @@ body {
     -o-transform: translateX(20px);
     transform: translateX(20px); }
 
-  /* line 374, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
   100% {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
