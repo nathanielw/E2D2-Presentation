@@ -194,6 +194,21 @@ body {
 			top: 200px;
 		}
 	}
+	
+	.credits {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+
+		line-height: 1.5em;
+		font-size: 0.4em;
+		color: #666;
+		opacity: 0.8;
+		
+		&:hover {
+			opacity: 1;
+		}
+	}
 
 	.window {
 		@extend .shadowed;
