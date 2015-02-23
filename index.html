@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/expeditee.css" id="theme">
-		<link rel="stylesheet" href="bower-lib/components/material-design-iconic-font/css/material-design-iconic-font.min.css" id="theme">
+		<link rel="stylesheet" href="bower-lib/components/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -57,7 +57,7 @@
 					
 					<aside class="notes">
 						[Intro]
-						...and I've been working on the Expeditee Desktop.
+						...and I've been working on 'E2D2', or 'the Expeditee Desktop'.
 					</aside>
 				</section>
 
@@ -81,7 +81,7 @@
 					<aside class="notes">
 						<p>So Expeditee is a hypermedia enviroment for creating and organising various types of content.</p>
 						
-						<p>Its primary use would be for things such as note-taking, but it aims to support a wide range of activities.</p>
+						<p>Its primary use would be for things such as note-taking, but it aims to support a wide range of activities beyond that.</p>
 
 						<p>It provides quite a unique style of interaction, but at the same time feels quite outdated visually, so switching between it and other desktop programs can sometimes be a little jarring.</p>
 					</aside>
@@ -103,7 +103,7 @@
 	</g>
 </svg>
 					<aside class="notes">
-						<p>The aim of this project was to expand Expeditee so that its core features could be used across an entire modern desktop environment.</p>
+						<p>The aim of this project was to expand Expeditee so that its core features work across an entire modern desktop environment.</p>
 						
 						<p>...and the platform that was chosen for this was Android.</p>
 					</aside>
@@ -135,7 +135,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>The possibility of modify and compiling up a custom version of Android was breifly explored, and while this was surprisingly straight forward, it would obviously not be the best approach for end-users.</p>
+						<p>I breifly explored the possibility of directly modifing the Android source to add Expeditee-like features, and while this was surprisingly straight forward, it would obviously not be the best approach for end-users.</p>
 					</aside>
 				</section>
 				
@@ -167,7 +167,8 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>So I quickly switched over to a really cool framework called Xposed, which allows you to inject modifications into any Java code that the Android system executes. This is all done at runtime, so there's no need for creating a custom distro, which makes it far more convenient for users to install on their current system. It's also easier to maintain as a developer, since the code base you're dealing with is significantly smaller.</p>
+						<p>So I quickly made the switch to a really cool framework called Xposed, 
+							<br>which allows you to inject modifications into any Java code that the Android system executes. This is all done at runtime, so there's no need for users to install a custom Android distro. It's also easier to maintain as a developer, since the code base you're dealing with is significantly smaller.</p>
 					</aside>
 				</section>
 				
@@ -190,7 +191,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>The end result of this was that across the Android system, the text content of elements that extend Android’s standard Text or Button UI elements text can be picked up with a right click and carried between apps, and dropped into text entry fields.</p>
+						<p>The end result of this is that across the Android system, text content can be picked up with a right click and carried between apps, and then dropped into places such as text entry fields.</p>
 					</aside>
 				</section>	
                 
@@ -210,7 +211,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>The content of text entry fields can also be manipulated in the same way, in addition to other Expeditee-style interaction, such as the text caret following the cursor. I also modified the cursor itself to provide indication of which button combos can be used at any time.</p>
+						<p>The content of text entry fields can also be manipulated in the same way, in addition to other Expeditee-style features, such as the text caret following the cursor. I also modified the pointer itself to give an indication of which button combos can be used at any particular time.</p>
 					</aside>
 				</section>
 				
@@ -250,9 +251,7 @@
 					</div>
 					<aside class="notes">
 						<p>Unfortunately, the current Expeditee codebase has no real separation between graphics and logic code, which makes it quite a challenge to port between system.</p>
-						<p>So for the Android 
-							
-							So for the Android version, I focused on rewriting Expeditee's core logic to be platform-agnostic, with the user interface code kept completely separate. While I only had time to port a small portion of Expeditee, the structure means that, in theory, a more complete version of the Android core could be ported back to desktop so that they share a common codebase.</p>
+						<p>So for the Android version, I focused on rewriting Expeditee's core logic to be platform-agnostic, with the user interface code kept completely separate. While I only had time to port a small portion of Expeditee, the structure means that, in theory, a more complete version of the Android core could be ported back to desktop so that they share a common codebase.</p>
 					</aside>
 				</section>
 				
@@ -274,7 +273,18 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>At the moment only basic viewing and navigation is supported in the app, so there's still a lot that could be added in the future, including editing, integration with the first part of the project and potentially other Android-specific features.
+						<p>This is the Expeditee app in action.</p>
+						
+						<ul>
+							<li>Loading framesets</li>
+							<li>Navigation between frames</li>
+							<li>Pan and zoom</li>
+						</ul>
+						
+						<p>
+							Future: more of Expeditee's features, integration between the two parts of the project, more Android-specific features.
+						</p>
+						
 					</aside>
 				</section>
 				
