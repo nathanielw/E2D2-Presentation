@@ -73,7 +73,16 @@ body {
 	}
 	
 	h1 {
-		font-size: 1.3em;
+		font-size: 1.8em;
+		color: white;
+	}
+	
+	.subtitle {
+		display: inline-block;
+		font-size: 0.48em;
+		line-height: 1em;
+		font-weight: normal;
+		opacity: 0.75;
 	}
 	
 	h2 {
@@ -104,11 +113,11 @@ body {
 	}
 	
 	a {
-		color: $accentDark;
+		color: darken($androidGreen, 10%);
 		text-decoration: none;
 		
 		&:hover {
-			color: $accent;
+			color: $androidGreen;
 		}
 	}
 	
@@ -188,10 +197,12 @@ body {
 		line-height: 0.45;
 		
 		.content {
-			text-align: right;
+			text-align: left;
 			position: absolute;
-			right: 130px;
-			top: 200px;
+			left: 60px;
+			top: 170px;
+			
+			color: #aaa;
 		}
 	}
 	
