@@ -292,7 +292,7 @@ body {
 			height: $dotSize;
 			border-radius: 100%;
 			
-			background: rgba(white, 0.3);
+			background: rgba(white, 0.15);
 		}
 		
 		&:after {
@@ -396,6 +396,7 @@ body {
 		}
 	}
 }
+
 
 // Keyframes for the Android robot wave and entry
 @include keyframes(wave) {

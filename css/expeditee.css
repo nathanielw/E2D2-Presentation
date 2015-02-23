@@ -1,14 +1,14 @@
-/* line 5, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 5, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 body {
   background: black;
   margin: 0;
   padding: 0; }
 
-/* line 11, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 11, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 .shadowed, .reveal .window, .reveal .laptop, .reveal .card {
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.4); }
 
-/* line 27, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 27, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 .subtleEntry, .reveal ul li, .reveal .card {
   -webkit-animation: subtleInLeft 0.5s ease-out;
   -moz-animation: subtleInLeft 0.5s ease-out;
@@ -16,64 +16,64 @@ body {
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(1), .reveal ul li:nth-child(1), .reveal .card:nth-child(1) {
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     animation-delay: 0s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(2), .reveal ul li:nth-child(2), .reveal .card:nth-child(2) {
     -webkit-animation-delay: 0.1s;
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(3), .reveal ul li:nth-child(3), .reveal .card:nth-child(3) {
     -webkit-animation-delay: 0.2s;
     -moz-animation-delay: 0.2s;
     animation-delay: 0.2s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(4), .reveal ul li:nth-child(4), .reveal .card:nth-child(4) {
     -webkit-animation-delay: 0.3s;
     -moz-animation-delay: 0.3s;
     animation-delay: 0.3s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(5), .reveal ul li:nth-child(5), .reveal .card:nth-child(5) {
     -webkit-animation-delay: 0.4s;
     -moz-animation-delay: 0.4s;
     animation-delay: 0.4s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(6), .reveal ul li:nth-child(6), .reveal .card:nth-child(6) {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     animation-delay: 0.5s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(7), .reveal ul li:nth-child(7), .reveal .card:nth-child(7) {
     -webkit-animation-delay: 0.6s;
     -moz-animation-delay: 0.6s;
     animation-delay: 0.6s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(8), .reveal ul li:nth-child(8), .reveal .card:nth-child(8) {
     -webkit-animation-delay: 0.7s;
     -moz-animation-delay: 0.7s;
     animation-delay: 0.7s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(9), .reveal ul li:nth-child(9), .reveal .card:nth-child(9) {
     -webkit-animation-delay: 0.8s;
     -moz-animation-delay: 0.8s;
     animation-delay: 0.8s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .subtleEntry:nth-child(10), .reveal ul li:nth-child(10), .reveal .card:nth-child(10) {
     -webkit-animation-delay: 0.9s;
     -moz-animation-delay: 0.9s;
     animation-delay: 0.9s; }
 
-/* line 32, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 32, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 .fragment .subtleEntry, .fragment .reveal ul li, .reveal ul .fragment li, .fragment .reveal .card, .reveal .fragment .card, .fragment.subtleEntry, .reveal ul li.fragment, .reveal .fragment.card {
   -webkit-animation: none;
   -moz-animation: none;
   animation: none; }
 
-/* line 36, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 36, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 .fragment.visible .subtleEntry, .fragment.visible .reveal ul li, .reveal ul .fragment.visible li, .fragment.visible .reveal .card, .reveal .fragment.visible .card, .fragment.visible.subtleEntry, .reveal ul li.fragment.visible, .reveal .fragment.visible.card {
   -webkit-animation: subtleInLeft 0.5s ease-out;
   -moz-animation: subtleInLeft 0.5s ease-out;
@@ -81,108 +81,108 @@ body {
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(1), .fragment.visible .reveal ul li:nth-child(1), .reveal ul .fragment.visible li:nth-child(1), .fragment.visible .reveal .card:nth-child(1), .reveal .fragment.visible .card:nth-child(1), .fragment.visible.subtleEntry:nth-child(1), .reveal ul li.fragment.visible:nth-child(1), .reveal .fragment.visible.card:nth-child(1) {
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     animation-delay: 0s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(2), .fragment.visible .reveal ul li:nth-child(2), .reveal ul .fragment.visible li:nth-child(2), .fragment.visible .reveal .card:nth-child(2), .reveal .fragment.visible .card:nth-child(2), .fragment.visible.subtleEntry:nth-child(2), .reveal ul li.fragment.visible:nth-child(2), .reveal .fragment.visible.card:nth-child(2) {
     -webkit-animation-delay: 0.1s;
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(3), .fragment.visible .reveal ul li:nth-child(3), .reveal ul .fragment.visible li:nth-child(3), .fragment.visible .reveal .card:nth-child(3), .reveal .fragment.visible .card:nth-child(3), .fragment.visible.subtleEntry:nth-child(3), .reveal ul li.fragment.visible:nth-child(3), .reveal .fragment.visible.card:nth-child(3) {
     -webkit-animation-delay: 0.2s;
     -moz-animation-delay: 0.2s;
     animation-delay: 0.2s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(4), .fragment.visible .reveal ul li:nth-child(4), .reveal ul .fragment.visible li:nth-child(4), .fragment.visible .reveal .card:nth-child(4), .reveal .fragment.visible .card:nth-child(4), .fragment.visible.subtleEntry:nth-child(4), .reveal ul li.fragment.visible:nth-child(4), .reveal .fragment.visible.card:nth-child(4) {
     -webkit-animation-delay: 0.3s;
     -moz-animation-delay: 0.3s;
     animation-delay: 0.3s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(5), .fragment.visible .reveal ul li:nth-child(5), .reveal ul .fragment.visible li:nth-child(5), .fragment.visible .reveal .card:nth-child(5), .reveal .fragment.visible .card:nth-child(5), .fragment.visible.subtleEntry:nth-child(5), .reveal ul li.fragment.visible:nth-child(5), .reveal .fragment.visible.card:nth-child(5) {
     -webkit-animation-delay: 0.4s;
     -moz-animation-delay: 0.4s;
     animation-delay: 0.4s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(6), .fragment.visible .reveal ul li:nth-child(6), .reveal ul .fragment.visible li:nth-child(6), .fragment.visible .reveal .card:nth-child(6), .reveal .fragment.visible .card:nth-child(6), .fragment.visible.subtleEntry:nth-child(6), .reveal ul li.fragment.visible:nth-child(6), .reveal .fragment.visible.card:nth-child(6) {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     animation-delay: 0.5s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(7), .fragment.visible .reveal ul li:nth-child(7), .reveal ul .fragment.visible li:nth-child(7), .fragment.visible .reveal .card:nth-child(7), .reveal .fragment.visible .card:nth-child(7), .fragment.visible.subtleEntry:nth-child(7), .reveal ul li.fragment.visible:nth-child(7), .reveal .fragment.visible.card:nth-child(7) {
     -webkit-animation-delay: 0.6s;
     -moz-animation-delay: 0.6s;
     animation-delay: 0.6s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(8), .fragment.visible .reveal ul li:nth-child(8), .reveal ul .fragment.visible li:nth-child(8), .fragment.visible .reveal .card:nth-child(8), .reveal .fragment.visible .card:nth-child(8), .fragment.visible.subtleEntry:nth-child(8), .reveal ul li.fragment.visible:nth-child(8), .reveal .fragment.visible.card:nth-child(8) {
     -webkit-animation-delay: 0.7s;
     -moz-animation-delay: 0.7s;
     animation-delay: 0.7s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(9), .fragment.visible .reveal ul li:nth-child(9), .reveal ul .fragment.visible li:nth-child(9), .fragment.visible .reveal .card:nth-child(9), .reveal .fragment.visible .card:nth-child(9), .fragment.visible.subtleEntry:nth-child(9), .reveal ul li.fragment.visible:nth-child(9), .reveal .fragment.visible.card:nth-child(9) {
     -webkit-animation-delay: 0.8s;
     -moz-animation-delay: 0.8s;
     animation-delay: 0.8s; }
-  /* line 21, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 21, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .fragment.visible .subtleEntry:nth-child(10), .fragment.visible .reveal ul li:nth-child(10), .reveal ul .fragment.visible li:nth-child(10), .fragment.visible .reveal .card:nth-child(10), .reveal .fragment.visible .card:nth-child(10), .fragment.visible.subtleEntry:nth-child(10), .reveal ul li.fragment.visible:nth-child(10), .reveal .fragment.visible.card:nth-child(10) {
     -webkit-animation-delay: 0.9s;
     -moz-animation-delay: 0.9s;
     animation-delay: 0.9s; }
 
-/* line 40, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+/* line 40, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
 .reveal {
   font-family: 'Roboto Condensed', Roboto, sans-serif;
   font-size: 44px;
   color: #343434; }
-  /* line 56, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 56, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal section {
     height: 100%;
     width: 100%;
     text-align: left;
     padding: 0 !important; }
-  /* line 64, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 64, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .padded {
     padding: 1em; }
-  /* line 68, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 68, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal h1, .reveal h2, .reveal h3 {
     font-family: 'Roboto Slab', Roboto, serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 0.9; }
-  /* line 75, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 75, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal h1 {
     font-size: 1.3em; }
-  /* line 79, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 79, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal h2 {
     font-size: 2.2em;
     color: white;
     margin-bottom: 0.5em;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.16); }
-    /* line 86, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 86, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal h2.small {
       font-size: 1.1em; }
-  /* line 91, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 91, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal h3 {
     font-size: 1.45em;
     margin-bottom: 0.5em;
     display: block; }
-  /* line 97, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 97, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal h2 + h3 {
     margin-top: -0.7em; }
-  /* line 102, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 102, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal small {
     font-size: 0.4em; }
-  /* line 106, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 106, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal a {
     color: #008fa1;
     text-decoration: none; }
-    /* line 110, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 110, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal a:hover {
       color: #00BCD4; }
-  /* line 115, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 115, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal code {
     font-family: 'Droid Sans Mono';
     font-size: 0.9em;
@@ -190,64 +190,64 @@ body {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
-  /* line 125, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 125, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal em {
     font-style: italic; }
-  /* line 129, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 129, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal ul {
     line-height: 1.1;
     list-style: none; }
-    /* line 133, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 133, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal ul li {
       padding-left: 0.6em;
       position: relative;
       margin-bottom: 0.4em; }
-      /* line 139, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 139, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
       .reveal ul li:before {
         position: absolute;
         left: 0;
         content: '•';
         opacity: 0.2; }
-      /* line 146, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 146, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
       .reveal ul li.positive:before {
         color: #4CAF50;
         opacity: 0.7; }
-      /* line 151, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 151, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
       .reveal ul li.negative:before {
         color: #F44336;
         opacity: 0.7; }
-  /* line 158, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 158, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal [class^="md-"] {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 100%;
     padding: 50px;
     color: #ffc107; }
-  /* line 165, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 165, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .bg {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     z-index: -1000; }
-  /* line 173, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 173, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .bg-secondary {
     background-color: #ffc107; }
-  /* line 177, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 177, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .bg-android {
     background-color: #A4C639; }
-  /* line 181, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 181, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .bg-accent {
     background-color: #00BCD4; }
-  /* line 186, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 186, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .intro {
     line-height: 0.45; }
-    /* line 190, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 190, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .intro .content {
       text-align: right;
       position: absolute;
       right: 130px;
       top: 200px; }
-  /* line 198, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 198, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .credits {
     position: absolute;
     bottom: 0;
@@ -256,22 +256,22 @@ body {
     font-size: 0.4em;
     color: #666;
     opacity: 0.8; }
-    /* line 208, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 208, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .credits:hover {
       opacity: 1; }
-  /* line 213, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 213, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .window, .reveal .laptop {
     display: inline-block;
     position: relative; }
-    /* line 216, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 216, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .window img, .reveal .laptop img {
       z-index: -1;
       position: relative; }
-  /* line 225, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 225, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .window {
     overflow: hidden;
     border-radius: 6px; }
-    /* line 230, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 230, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .window:before {
       content: attr(data-title);
       font-size: 15px;
@@ -285,7 +285,7 @@ body {
       background: rgba(255, 255, 255, 0.9);
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    /* line 248, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 248, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .window:after {
       content: '';
       display: block;
@@ -297,13 +297,13 @@ body {
       border-radius: 100%;
       background: rgba(0, 0, 0, 0.2);
       box-shadow: 14px 0 0 rgba(0, 0, 0, 0.2), 28px 0 0 rgba(0, 0, 0, 0.2); }
-  /* line 269, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 269, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .laptop {
     padding: 40px;
     border-radius: 20px;
     background: #2d3134;
     border: 4px solid #e2e2e2; }
-    /* line 277, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 277, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .laptop:before {
       content: '';
       display: block;
@@ -316,8 +316,8 @@ body {
       width: 16px;
       height: 16px;
       border-radius: 100%;
-      background: rgba(255, 255, 255, 0.3); }
-    /* line 298, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      background: rgba(255, 255, 255, 0.15); }
+    /* line 298, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .laptop:after {
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
       content: '';
@@ -332,7 +332,7 @@ body {
       background-color: #eaeaea;
       background-image: -webkit-linear-gradient(top, #eaeaea 60%, #ccc 60%);
       background-image: linear-gradient(to bottom,#eaeaea 60%, #ccc 60%); }
-  /* line 317, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 317, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .card {
     padding: 1em;
     border-radius: 6px;
@@ -342,18 +342,18 @@ body {
     position: relative;
     font-size: 0.6em;
     box-sizing: border-box; }
-    /* line 333, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 333, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .card.half {
       width: 49%; }
-      /* line 336, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 336, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
       .reveal .card.half:not(:nth-child(2n)) {
         margin-right: 2%; }
-    /* line 341, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 341, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .card li {
       -webkit-animation: none;
       -moz-animation: none;
       animation: none; }
-    /* line 345, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 345, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .card > i {
       text-align: center;
       position: absolute;
@@ -369,18 +369,18 @@ body {
       width: 2em;
       height: 2em;
       line-height: 2em; }
-  /* line 368, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 368, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .iconed {
     margin-top: 2em;
     padding-top: 3em; }
-  /* line 373, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 373, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .centered {
     text-align: center; }
-  /* line 377, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 377, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal img, .reveal video {
     width: 100%;
     float: left; }
-  /* line 382, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 382, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   .reveal .robot {
     position: absolute;
     right: -20%;
@@ -391,12 +391,12 @@ body {
     -ms-transform: scale(1.5) rotate(-45deg);
     -o-transform: scale(1.5) rotate(-45deg);
     transform: scale(1.5) rotate(-45deg); }
-    /* line 389, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+    /* line 389, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
     .reveal .robot.visible {
       -webkit-animation: slideLeft 1s ease-out;
       -moz-animation: slideLeft 1s ease-out;
       animation: slideLeft 1s ease-out; }
-      /* line 392, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+      /* line 392, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
       .reveal .robot.visible #armRight {
         -webkit-animation: wave 2s 0.8s ease-in-out;
         -moz-animation: wave 2s 0.8s ease-in-out;
@@ -408,33 +408,33 @@ body {
         transform-origin: center 10%; }
 
 @-webkit-keyframes wave {
-  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 403, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0%, 100% {
     -webkit-transform: rotate(0); }
 
-  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 406, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   25%, 50%, 75% {
     -webkit-transform: rotate(-140deg); }
 
-  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 409, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   40%, 60% {
     -webkit-transform: rotate(-185deg) translateY(3px); } }
 
 @-moz-keyframes wave {
-  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 403, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0%, 100% {
     -moz-transform: rotate(0); }
 
-  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 406, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   25%, 50%, 75% {
     -moz-transform: rotate(-140deg); }
 
-  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 409, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   40%, 60% {
     -moz-transform: rotate(-185deg) translateY(3px); } }
 
 @keyframes wave {
-  /* line 402, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 403, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0%, 100% {
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
@@ -442,7 +442,7 @@ body {
     -o-transform: rotate(0);
     transform: rotate(0); }
 
-  /* line 405, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 406, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   25%, 50%, 75% {
     -webkit-transform: rotate(-140deg);
     -moz-transform: rotate(-140deg);
@@ -450,7 +450,7 @@ body {
     -o-transform: rotate(-140deg);
     transform: rotate(-140deg); }
 
-  /* line 408, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 409, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   40%, 60% {
     -webkit-transform: rotate(-185deg) translateY(3px);
     -moz-transform: rotate(-185deg) translateY(3px);
@@ -459,42 +459,42 @@ body {
     transform: rotate(-185deg) translateY(3px); } }
 
 @-webkit-keyframes slideLeft {
-  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 415, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @-moz-keyframes slideLeft {
-  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 415, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @keyframes slideLeft {
-  /* line 414, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 415, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     right: -100%; } }
 
 @-webkit-keyframes subtleInLeft {
-  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 421, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px); }
 
-  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 425, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   100% {
     -webkit-transform: translateX(0px); } }
 
 @-moz-keyframes subtleInLeft {
-  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 421, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     opacity: 0;
     -moz-transform: translateX(20px); }
 
-  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 425, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   100% {
     -moz-transform: translateX(0px); } }
 
 @keyframes subtleInLeft {
-  /* line 420, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 421, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -503,7 +503,7 @@ body {
     -o-transform: translateX(20px);
     transform: translateX(20px); }
 
-  /* line 424, /mnt/sharedntfs/Programming/Android/ExpDroid-misc/presentation/reveal.js/css/expeditee.scss */
+  /* line 425, /home/nathaniel/Programming/Summer-2014/Presentation/E2D2-Presentation/css/expeditee.scss */
   100% {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);

@@ -164,7 +164,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>Instead I switched over to creating a standard Android app that, provided the user has root access, makes the necessary changes, without permanently modifying any of the Android system. This was achieved through a really cool framework called Xposed, which handles all the hard work of injecting the changes at boot.</p>
+						<p>So I quickly switched over to a really cool framework called Xposed, which allows you to inject modifications into any Java code that the Android system executes. This is all done at runtime, so there's no need for creating a custom distro, which makes it far more convenient for users to install on their current system. It's also easier to maintain as a developer, since the code base you're dealing with is significantly smaller.</p>
 					</aside>
 				</section>
 				
@@ -207,7 +207,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						<p>The content of text entry fields can also be manipulated in the same way, in addition to mouse button combos that allow things such as deletion. The caret follows the cursor just as it does in Expeditee, and the curos also extends Expeditee's</p>
+						<p>The content of text entry fields can also be manipulated in the same way, in addition to other Expeditee-style interaction, such as the text caret following the cursor. I also modified the cursor itself to provide indication of which button combos can be used at any time.</p>
 					</aside>
 				</section>
 				
@@ -216,7 +216,7 @@
 						<h2>Porting Expeditee</h2>
 					</div>
 					<aside class="notes">
-						<p>The second part of the project consisted of porting the main Expeditee app to Android.</p>
+						<p>The second part of my work consisted of porting the main Expeditee app across to Android.</p>
 					</aside>
 				</section>
 				
@@ -246,8 +246,10 @@
 						
 					</div>
 					<aside class="notes">
-						<p>The Expeditee codebase has no real separation between graphics and logic code, so I had to make some significate changes to its structure...</p>
-						<p>The code that the Android version is running on has been structured so that the user interface is completely separate from the logic, which means, in theory, the desktop version could be modified to be running of a common codebase.</p> <!-- TODO: condense these paragraphs -->
+						<p>Unfortunately, the current Expeditee codebase has no real separation between graphics and logic code, which makes it quite a challenge to port between system.</p>
+						<p>So for the Android 
+							
+							So for the Android version, I focused on rewriting Expeditee's core logic to be platform-agnostic, with the user interface code kept completely separate. While I only had time to port a small portion of Expeditee, the structure means that, in theory, a more complete version of the Android core could be ported back to desktop so that they share a common codebase.</p>
 					</aside>
 				</section>
 				
@@ -264,7 +266,7 @@
 					<div class="centered">
 						<div class="laptop animated bounceInUp" style="width:75%;">
 							<video autoplay loop>
-								<source data-src="" type="video/webm" />
+								<source data-src="img/vid/expeditee-app.webm" type="video/webm" />
 							</video>
 						</div>
 					</div>
