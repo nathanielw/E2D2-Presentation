@@ -1,0 +1,11 @@
+{
+    "path": {
+        "css/expeditee.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "sourceComments": false,
+                "outputStyle": "nested"
+            }
+        }
+    }
+}
