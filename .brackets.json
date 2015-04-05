@@ -5,7 +5,9 @@
             "sass.options": {
                 "sourceComments": false,
                 "outputStyle": "nested"
-            }
+            },
+            "brackets-git.gitPath": "git",
+            "linting.collapsed": true
         }
     }
 }

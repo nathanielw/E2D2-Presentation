@@ -43,6 +43,7 @@ body {
 	$accent: #00BCD4;
 	$accentDark: darken($accent, 10%);
 	$androidGreen: #A4C639;
+	$navColor: white;
 	
 	$red: #F44336;
 	$green: #4CAF50;
@@ -212,7 +213,7 @@ body {
 		width: 100%;
 
 		line-height: 1.5em;
-		font-size: 0.4em;
+		font-size: 0.6em;
 		color: #666;
 		opacity: 0.8;
 		
@@ -392,8 +393,8 @@ body {
 	
 	.robot {
 		position: absolute;
-		right: -20%;
-		bottom: -0%;
+		right: -40%;
+		bottom: -5%;
 		fill: $androidGreen;
 		@include transform(scale(1.5) rotate(-45deg));
 
@@ -401,9 +402,47 @@ body {
 			@include animation(slideLeft 1s ease-out);
 			
 			#armRight {
-				@include animation(wave 2s 0.8s ease-in-out);
-				@include transform-origin(center 10%);
+				-webkit-animation: wave 2s 0.8s ease-in-out;
+				-webkit-transform-origin: center 10%;
 			}
+		}
+	}
+	
+	.controls {
+		height: auto;
+		bottom: 50px;
+		
+		div.navigate-left {
+			border-right-color: $navColor;
+			top: 0;
+		}
+
+		div.navigate-right {
+			border-left-color: $navColor;
+			top: 0;
+		}
+
+		div.navigate-up {
+			display: none;
+		}
+
+		div.navigate-down {
+			display: none;
+		}
+		
+		div.navigate-left.enabled:hover,
+		div.navigate-right.enabled:hover,
+		div.navigate-up.enabled:hover,
+		div.navigate-down.enabled:hover {
+			opacity: 1;
+		}
+	}
+	
+	.progress {
+		background: rgba(white, 0.1);
+		
+		span {
+			background: $navColor;
 		}
 	}
 }

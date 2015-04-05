@@ -209,7 +209,7 @@ body {
     bottom: 0;
     width: 100%;
     line-height: 1.5em;
-    font-size: 0.4em;
+    font-size: 0.6em;
     color: #666;
     opacity: 0.8; }
     .reveal .credits:hover {
@@ -321,8 +321,8 @@ body {
     float: left; }
   .reveal .robot {
     position: absolute;
-    right: -20%;
-    bottom: 0%;
+    right: -40%;
+    bottom: -5%;
     fill: #A4C639;
     -webkit-transform: scale(1.5) rotate(-45deg);
     -moz-transform: scale(1.5) rotate(-45deg);
@@ -335,13 +335,26 @@ body {
       animation: slideLeft 1s ease-out; }
       .reveal .robot.visible #armRight {
         -webkit-animation: wave 2s 0.8s ease-in-out;
-        -moz-animation: wave 2s 0.8s ease-in-out;
-        animation: wave 2s 0.8s ease-in-out;
-        -webkit-transform-origin: center 10%;
-        -moz-transform-origin: center 10%;
-        -ms-transform-origin: center 10%;
-        -o-transform-origin: center 10%;
-        transform-origin: center 10%; }
+        -webkit-transform-origin: center 10%; }
+  .reveal .controls {
+    height: auto;
+    bottom: 50px; }
+    .reveal .controls div.navigate-left {
+      border-right-color: white;
+      top: 0; }
+    .reveal .controls div.navigate-right {
+      border-left-color: white;
+      top: 0; }
+    .reveal .controls div.navigate-up {
+      display: none; }
+    .reveal .controls div.navigate-down {
+      display: none; }
+    .reveal .controls div.navigate-left.enabled:hover, .reveal .controls div.navigate-right.enabled:hover, .reveal .controls div.navigate-up.enabled:hover, .reveal .controls div.navigate-down.enabled:hover {
+      opacity: 1; }
+  .reveal .progress {
+    background: rgba(255, 255, 255, 0.1); }
+    .reveal .progress span {
+      background: white; }
 
 @-webkit-keyframes wave {
   0%, 100% {
